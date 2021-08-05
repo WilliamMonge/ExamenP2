@@ -1,0 +1,151 @@
+body{
+    background-color: #e6e4e3;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin:0;
+}
+#tit1{
+    transform: translate(10px);
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 65px;
+    text-align: center;
+    color:#e4ae19;
+    ;
+}
+
+#sub1{
+    transform: translate(-100px);
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+header .portada{
+    display: flex;
+    height: 100vh;
+    background:center/98% no-repeat
+     url("https://i.pinimg.com/736x/73/6b/47/736b471f6c02527d4650778556f62acc.jpg");
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+} 
+
+#bt{
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+}
+
+ button{
+    font-family: 'Reggae One', cursive;
+    background: pink;
+    color: rgba(163, 102, 11, 0.74);
+    border: 7px double blue;
+    padding: 0.5em 3em;
+    font-size: 1.5em;
+    transition: color 0.25s, transform 0.5s, border-color 0.10s;
+}
+ button:hover{
+    border-color: rgba(163, 102, 11, 0.74);
+    background: rgba(255, 192, 203, 0.733);
+    color: rgb(38, 23, 245);
+    cursor: pointer;
+    transform: translateY(-0.3em);
+
+}
+
+#section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: white;
+    padding: 10px;
+}
+.img{
+    margin-top: 40px;
+    background:center/98% no-repeat
+     url("https://3.bp.blogspot.com/-9fMv7SlCWJs/WVLf4e9PUlI/AAAAAAAACys/dJ4SpoiLF_0R61aj4ECVc5MPsatiG-tbgCLcBGAs/s1600/Foto1.jpg");
+    width: 300px;
+    height: 250px;
+    background-color: #e4ae19;
+    border-radius: 20%;
+    background-size: cover;
+    border-color: #e4ae19 2px;
+    border: 5px solid rgb(75, 245, 8);
+    transition: all 1s;
+    
+
+}
+.img:hover{
+    background:center/100% no-repeat 
+     url("https://3.bp.blogspot.com/-9fMv7SlCWJs/WVLf4e9PUlI/AAAAAAAACys/dJ4SpoiLF_0R61aj4ECVc5MPsatiG-tbgCLcBGAs/s1600/Foto1.jpg");
+    height: 300px;
+    width: 350px;
+    border-radius: 20%;
+    background-size: cover; 
+   
+}
+.texto{
+    padding-left:30px;
+}
+#titulo{
+    color: #e4ae19;
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+}
+
+#seccion_productos{
+    background-color: #a77f14b4;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+#seccion_productos img{
+    margin-top: 30px;
+    flex-wrap: inherit;
+    border-radius: 10%;
+    transition: all 1s;
+    margin-left: 50px;
+    border: 5px solid rgb(75, 245, 8);
+}
+#seccion_productos img:hover{
+    height: 160px;
+    width: 210px;
+    border-radius: 10%;   
+}
+#prod {
+    text-align: center;
+    color:black;
+}
+#informacion_prod{
+    color:black;
+}
+#seccion_contactos{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color: white;
+    font-size:1.6em;
+    color:rgb(59, 37, 4); ;
+}
+
+footer{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    background-color:#a77f14b4;
+    color: rgba(56, 50, 38, 0.699);
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "examenp2_monge_william",
+  "version": "1.0.0",
+  "description": "pagina de una panaderia",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev":"nodemon servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pagina",
+    "web"
+  ],
+  "author": "william",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
